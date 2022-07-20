@@ -1,4 +1,5 @@
 import noteContext from '../context/note/noteContex'
+import AddNote from './AddNote'
 import Notes from './Notes'
 
 const Home = () => {
@@ -8,7 +9,6 @@ const Home = () => {
       <div className='container mb-3'>
         <h2>Add Notes</h2>
       </div>
-
       <Notes/>
 
 
